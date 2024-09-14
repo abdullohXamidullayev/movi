@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      locale: const Locale("ru"),
+      locale: const Locale("en"),
       localizationsDelegates: const [
         GlobalMaterialLocalizations.delegate,
         GlobalCupertinoLocalizations.delegate,
@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
         Locale("en"),
         Locale("ru"),
       ],
-      theme: AppTheme.light,
+      theme: AppTheme.dark,
       home: const Home(),
     );
   }

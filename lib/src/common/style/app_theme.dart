@@ -12,7 +12,6 @@ class AppTheme {
     colorScheme: flexSchemeDark,
     useMaterial3: true,
   );
-
 }
 
 const ColorScheme flexSchemeLight = ColorScheme(
